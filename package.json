@@ -106293,7 +106293,6 @@
   "version": "10.8.1",
   "description": "BMW-MD latest multi device whatsapp bot",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name BMW-MD",
     "stop": "pm2 stop BMW-MD",
