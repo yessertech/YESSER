@@ -9,8 +9,9 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/Luffy2ndAccount/Zokou-english-v.git /root/zokou_BOt
-WORKDIR /root/zokou_Bot/
+RUN  git clone https://github.com/France-King1/Flash-Md.  /root/Flash_BOt
+WORKDIR /root/Flash_Bot/
+
 
 
 COPY package.json .
@@ -21,4 +22,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["node", "index.js"]
+CMD ["node", "flash.js"]
